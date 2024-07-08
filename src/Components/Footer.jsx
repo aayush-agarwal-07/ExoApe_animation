@@ -9,7 +9,10 @@ const Footer = () => {
         muted
         className="absolute -top-[28%] left-[19%] w-full h-full object-contain scale-[0.9]"
       >
-        <source src="src/assets/video-6.mp4" type="video/mp4" />
+        <source
+          src="https://drive.google.com/drive/u/0/home"
+          type="video/mp4"
+        />
         Your browser does not support the video tag.
       </video>
       <div className="relative z-10  flex flex-col gap-5 sm:gap-9">
@@ -34,32 +37,16 @@ const Footer = () => {
             </h6>
           </div>
           <div className="flex flex-col mr-[30%] gap-3 sm:gap-[0.5vw]">
-            <h6 >
-              Work
-            </h6>
-            <h6 >
-              Studio
-            </h6>
-            <h6 >
-              News
-            </h6>
-            <h6>
-              Contact
-            </h6>
+            <h6>Work</h6>
+            <h6>Studio</h6>
+            <h6>News</h6>
+            <h6>Contact</h6>
           </div>
           <div className="flex flex-col gap-3 sm:gap-[0.5vw]">
-            <h6>
-              Behance
-            </h6>
-            <h6 >
-              Dribble
-            </h6>
-            <h6 >
-              Twitter
-            </h6>
-            <h6 >
-              Instagram
-            </h6>
+            <h6>Behance</h6>
+            <h6>Dribble</h6>
+            <h6>Twitter</h6>
+            <h6>Instagram</h6>
           </div>
         </div>
       </div>
