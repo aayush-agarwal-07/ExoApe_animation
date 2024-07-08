@@ -2,7 +2,7 @@ import gsap, { Power4, ScrollTrigger } from "gsap/all";
 import React, { useEffect, useRef } from "react";
 import { BsStars } from "react-icons/bs";
 
-const PlayReel = () => {
+const VideoBackground = () => {
   const parent = useRef(null);
   const videodiv = useRef(null);
   const play = useRef(null);
@@ -10,26 +10,26 @@ const PlayReel = () => {
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    const tl = gsap.timeline({
+    var tl = gsap.timeline({
       scrollTrigger: {
         trigger: parent.current,
-        start: "10% top",
-        end: "90% top",
+        top: "0 0",
         pin: true,
         scrub: 1,
       },
     });
     tl.to(videodiv.current, {
-      scale: 4.5,
+      scale: 3.5,
       ease: Power4.easeInOut,
-      duration: 2.5,
-      delay: 1,
+      duration: 4,
+      delay: .5,
     })
       .to(
         play.current,
         {
           x: "100%",
           ease: Power4.easeInOut,
+          duration: 2,
         },
         "a"
       )
@@ -38,10 +38,11 @@ const PlayReel = () => {
         {
           x: "-100%",
           ease: Power4.easeInOut,
+          duration: 2,
         },
         "a"
       );
-  }, []);
+  });
 
   return (
     <div
@@ -59,8 +60,7 @@ const PlayReel = () => {
           loop
           muted
           className="absolute -top-[25%] left-[24%] w-[50vw] sm:w-[18vw] sm:-top-[125%] sm:left-[41%] h-full object-contain"
-          src="/assets/Play.mp4" // Adjusted path
-          onError={(e) => console.error("Video loading error:", e)}
+          src="src/assets/Play.mp4"
         />
 
         <div className="text-white absolute top-[14%] left-[7.5%] flex text-5xl font-medium gap-[100%] sm:text-9xl sm:-top-[110%] sm:left-[12%] sm:gap-[100%]">
@@ -78,4 +78,4 @@ const PlayReel = () => {
   );
 };
 
-export default PlayReel;
+export default VideoBackground;
