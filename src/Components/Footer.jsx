@@ -9,7 +9,7 @@ const Footer = () => {
         muted
         className="absolute -top-[28%] left-[19%] w-full h-full object-contain scale-[0.9]"
       >
-        <source src="src/assets/videos/video-6.mp4" type="video/mp4" />
+        <source src="src/assets/video-6.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="relative z-10  flex flex-col gap-5 sm:gap-9">
