@@ -1,0 +1,7 @@
+      <!-- <video autoPlay muted loop className="w-[19vw] hidden sm:block sm:absolute -bottom-[140%] left-[14%]"
+             src="https://player.vimeo.com/progressive_redirect/playback/914798271/rendition/720p/file.mp4?loc=external&log_user=0&signature=2af493277d050009920c26416a8d62a9a8c316353242c609ee157fcf1e300076"/> -->
+      <!-- <video autoPlay muted loop className="w-[32vw] hidden sm:block absolute -bottom-[130%] right-[24%] object-contain" src="https://player.vimeo.com/progressive_redirect/playback/914796979/rendition/540p/file.mp4?loc=external&log_user=0&signature=57ac30ff6fc3b29802f7414617e808395306f0b0fa5c9c6e3ef483a532f49c15"/> -->
+
+      <!-- <video autoPlay muted loop className="w-[24vw] hidden sm:block sm:absolute -bottom-[20%] right-[11%]" src="https://player.vimeo.com/progressive_redirect/playback/914798484/rendition/720p/file.mp4?loc=external&log_user=0&signature=666d8099e0f1361eb1766ec0592b63a9bdf2b303cdb12ddfa5789d20ce8f523b"/> -->
+
+            <!-- <video autoPlay muted loop className="block sm:hidden w-full scale-[1.3] absolute top-0 h-[70vw] " -->
